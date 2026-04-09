@@ -47,6 +47,7 @@ export const en = {
   'settings.tab.providers': 'Providers',
   'settings.tab.permissions': 'Permissions',
   'settings.tab.general': 'General',
+  'settings.tab.skills': 'Skills',
 
   // Settings > Providers
   'settings.providers.title': 'Providers',
@@ -138,6 +139,19 @@ export const en = {
   'settings.adapters.unbindConfirm': 'Are you sure you want to unbind this user? They will need to re-pair to use the bot.',
   'settings.adapters.platform.telegram': 'Telegram',
   'settings.adapters.platform.feishu': 'Feishu',
+
+  // Settings > Skills
+  'settings.skills.title': 'Installed Skills',
+  'settings.skills.description': 'Skills extend Claude with specialized capabilities. Manage skills in ~/.claude/skills/',
+  'settings.skills.empty': 'No skills installed',
+  'settings.skills.emptyHint': 'Add skills to ~/.claude/skills/ to get started',
+  'settings.skills.back': 'Back to list',
+  'settings.skills.files': 'files',
+  'settings.skills.source.user': 'User',
+  'settings.skills.source.project': 'Project',
+  'settings.skills.source.plugin': 'Plugin',
+  'settings.skills.source.mcp': 'MCP',
+  'settings.skills.source.bundled': 'Built-in',
 
   // Settings > General
   'settings.general.languageTitle': 'Language',

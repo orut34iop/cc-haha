@@ -49,6 +49,7 @@ export const zh: Record<TranslationKey, string> = {
   'settings.tab.providers': '服务商',
   'settings.tab.permissions': '权限',
   'settings.tab.general': '通用',
+  'settings.tab.skills': '技能',
 
   // Settings > Providers
   'settings.providers.title': '服务商',
@@ -140,6 +141,19 @@ export const zh: Record<TranslationKey, string> = {
   'settings.adapters.unbindConfirm': '确定要解绑该用户吗？解绑后需重新配对才能使用。',
   'settings.adapters.platform.telegram': 'Telegram',
   'settings.adapters.platform.feishu': '飞书',
+
+  // Settings > Skills
+  'settings.skills.title': '已安装技能',
+  'settings.skills.description': '技能扩展 Claude 的能力。在 ~/.claude/skills/ 中管理技能。',
+  'settings.skills.empty': '暂无已安装技能',
+  'settings.skills.emptyHint': '在 ~/.claude/skills/ 中添加技能即可开始',
+  'settings.skills.back': '返回列表',
+  'settings.skills.files': '个文件',
+  'settings.skills.source.user': '用户',
+  'settings.skills.source.project': '项目',
+  'settings.skills.source.plugin': '插件',
+  'settings.skills.source.mcp': 'MCP',
+  'settings.skills.source.bundled': '内置',
 
   // Settings > General
   'settings.general.languageTitle': '语言',
